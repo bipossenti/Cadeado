@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Dosis:wght@200..800&family=Jacquard+12+Charted&family=Lacquer&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display&family=Single+Day&family=Workbench&display=swap');
 :root{
-    --branco: white;
+    --branco: rgb(0, 0, 0);
     --cor-de-fundo: #2E0000;
     --fundo-senha: #4D0000;
     --fundo-texto: #400000;
     --borda: #8000FF;
-    --roboto: 'Jacquard 12 Charted', system-ui;
-    --roboto-mono: 'Roboto Mono', monospace;
+    --roboto: 'Roboto Mono', monospace;
+    --roboto-mono:  'Jacquard 12 Charted', system-ui;
 }
 
 *{
@@ -21,7 +21,7 @@ body{
 
 .titulo-principal{
     font-family: var(--roboto-mono);
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .titulo-secundario{
